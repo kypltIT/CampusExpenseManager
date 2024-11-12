@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/gray"
     android:orientation="vertical"
-    android:paddingHorizontal="12dp"
-    android:paddingVertical="12dp">
+    android:paddingHorizontal="0dp"
+    android:paddingVertical="0dp">
 
     <!-- Top Bar -->
 
@@ -15,9 +15,15 @@
 
     <!-- Wallets Section -->
 
+    <!-- Monthly Report Section -->
+    <!-- Top Spending Section -->
+
+    <!-- Recent Transactions Section -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="-24dp"
         android:background="@color/white"
         android:orientation="vertical"
         android:paddingVertical="8dp">
@@ -112,57 +118,21 @@
 
     </LinearLayout>
 
-    <!-- Monthly Report Section -->
-    <!-- Top Spending Section -->
-
-    <!-- Recent Transactions Section -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_background"
         android:elevation="4dp"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:paddingHorizontal="0dp"
+        android:paddingVertical="0dp">
 
         <!-- Title and See all link -->
 
         <!-- Divider -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <!-- Wallets text on the left -->
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="Recent transactions"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <!-- See all text on the right -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:text="See all"
-                android:textAlignment="center"
-                android:textColor="#F07025"
-                android:textSize="14sp"
-                tools:ignore="RtlCompat" />
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="#A4A4A4" />
 
         <!-- Transaction entries -->
 
@@ -171,12 +141,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_launcher_background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -188,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Salary"
+                    android:text="Inflow"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -219,12 +183,6 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_launcher_background" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -235,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Salary"
+                    android:text="Outflow"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold" />

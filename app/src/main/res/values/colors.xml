@@ -8,6 +8,8 @@
     <!-- Complementary colors -->
     <color name="blue_200">#25A0F0</color>      <!-- Light blue complement -->
     <color name="blue_700">#1878B8</color>      <!-- Dark blue complement -->
+    <color name="green_200">#1EA223</color>      <!-- Dark blue complement -->
+
 
     <!-- Neutral colors -->
     <color name="black">#000000</color>
