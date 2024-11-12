@@ -13,6 +13,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#F5F5F5</color>
+    <color name="dark_gray">#A4A4A4</color>
+
     <!-- Additional accent colors -->
     <color name="orange_light">#FFE4D3</color>  <!-- Very light orange for backgrounds -->
     <color name="orange_dark">#8B3A0F</color>   <!-- Very dark orange for text -->

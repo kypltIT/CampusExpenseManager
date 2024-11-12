@@ -35,5 +35,6 @@
 
         <activity android:name=".AccountActivity"></activity>
 
+
     </application>
 </manifest>
