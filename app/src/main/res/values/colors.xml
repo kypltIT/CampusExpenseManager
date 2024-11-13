@@ -14,8 +14,6 @@
 
 
     <!-- Neutral colors -->
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
     <color name="gray">#F5F5F5</color>
     <color name="dark_gray">#A4A4A4</color>
 
