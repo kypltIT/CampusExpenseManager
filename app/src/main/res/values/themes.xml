@@ -9,4 +9,13 @@
         <item name="android:navigationBarColor">@color/orange_500</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+    <style name="Theme.CampusExpenseManager.Fragment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/gray</item>
+        <item name="android:statusBarColor">@color/orange_500</item>
+        <item name="android:navigationBarColor">@color/orange_500</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>
