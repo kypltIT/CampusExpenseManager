@@ -263,13 +263,12 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/green_200_20pt"
+            android:backgroundTintMode="add"
             android:text="View report for this period"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textColor="@color/green_200"
+            android:textColor="@color/white"
             android:textSize="12sp"
-            android:textStyle="bold"
             android:typeface="normal" />
 
         <!-- More transaction entries -->

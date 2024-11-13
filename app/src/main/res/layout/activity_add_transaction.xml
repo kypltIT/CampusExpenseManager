@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
@@ -17,8 +18,8 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
-            android:tint="@color/black"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            app:tint="@color/black" />
 
         <!-- Title -->
         <TextView
@@ -57,8 +58,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_launcher_background"
-                android:tint="@color/black"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,8 +80,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_launcher_background"
-                android:tint="@color/black"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -101,8 +102,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_launcher_background"
-                android:tint="@color/black"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -123,8 +124,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_launcher_background"
-                android:tint="@color/black"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -145,8 +146,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_launcher_background"
-                android:tint="@color/black"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
