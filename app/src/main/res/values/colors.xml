@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary orange colors -->
+    <color name="orange_200">#FFB486</color>    <!-- Lighter shade -->
+    <color name="orange_500">#F07025</color>    <!-- Main orange -->
+    <color name="orange_700">#B85218</color>    <!-- Darker shade -->
+
+    <!-- Complementary colors -->
+    <color name="blue_200">#25A0F0</color>      <!-- Light blue complement -->
+    <color name="blue_700">#1878B8</color>      <!-- Dark blue complement -->
+    <color name="green_200">#1EA223</color>
+    <color name="green_200_20pt">#331EA223</color>
+    <color name="red_200">#FF0000</color>
+
+
+    <!-- Neutral colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="dark_gray">#A4A4A4</color>
+
+    <!-- Additional accent colors -->
+    <color name="orange_light">#FFE4D3</color>  <!-- Very light orange for backgrounds -->
+    <color name="orange_dark">#8B3A0F</color>   <!-- Very dark orange for text -->
 </resources>
