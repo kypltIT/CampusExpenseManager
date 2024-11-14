@@ -4,19 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    android:background="@color/white"
     android:orientation="vertical"
     android:paddingHorizontal="0dp"
     android:paddingVertical="0dp">
 
-    <!-- Top Bar -->
-
-    <!-- Balance Card -->
-
-    <!-- Wallets Section -->
-
-    <!-- Monthly Report Section -->
-    <!-- Top Spending Section -->
 
     <!-- Recent Transactions Section -->
 
@@ -25,8 +17,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="-24dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
         android:orientation="vertical"
-        android:paddingVertical="8dp">
+        android:paddingVertical="12dp">
 
 
         <!-- Sample Wallet Entry -->
@@ -58,7 +51,8 @@
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -66,6 +60,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="end"
                 android:layout_weight="1"
+                android:background="@android:color/white"
                 android:text="FUTURE"
                 android:textAlignment="center"
                 android:textColor="#000000"

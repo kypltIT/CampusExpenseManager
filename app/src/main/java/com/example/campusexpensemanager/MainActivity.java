@@ -1,13 +1,16 @@
 package com.example.campusexpensemanager;
 
 import android.os.Bundle;
+import android.view.Menu;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+
 
 import com.example.campusexpensemanager.fragment.AccountFragment;
 import com.example.campusexpensemanager.fragment.AddFragment;
@@ -28,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Toolbar toolbar = findViewById(R.id.top_toolbar);
+        setSupportActionBar(toolbar);
+        // Remove the title from the toolbar
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
@@ -55,4 +66,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.top_nav_menu, menu);
+        return true;
+    }
+
 }
