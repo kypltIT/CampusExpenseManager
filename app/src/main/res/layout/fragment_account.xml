@@ -11,51 +11,13 @@
         android:padding="16dp">
 
         <!-- Header Section -->
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:background="@color/white"
-            android:elevation="4dp">
-
-            <!-- Logo Image on the Left -->
-            <ImageView
-                android:id="@+id/logoImage"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="8dp"
-                android:layout_centerVertical="true"
-                android:src="@drawable/campusexpense__2_" />
-
-            <!-- Title Centered -->
-            <TextView
-                android:id="@+id/appTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:text="Campus Expense Manager"
-                android:textSize="18sp"
-                android:textColor="@color/orange_500"
-                android:fontFamily="sans-serif-medium" />
-
-            <!-- Notification Icon on the Right, Centered Vertically -->
-            <ImageView
-                android:id="@+id/notificationIcon"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="8dp"
-                android:layout_centerVertical="true"
-                android:src="@drawable/ic_notification" />
-        </RelativeLayout>
 
         <!-- User Information Section -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/white"
+            android:background="@drawable/rounded_background"
             android:padding="16dp"
             android:layout_marginTop="8dp"
             android:elevation="2dp">
@@ -92,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/white"
+            android:background="@drawable/rounded_background"
             android:padding="16dp"
             android:layout_marginTop="8dp"
             android:elevation="2dp">
@@ -100,10 +62,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
                 android:text="Change Password"
-                android:textSize="16sp"
                 android:textColor="@color/black"
-                android:layout_marginBottom="8dp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <!-- Divider Line -->
             <View
@@ -144,7 +107,9 @@
                 android:text="Change Password"
                 android:textColor="@color/white"
                 android:backgroundTint="@color/orange_500"
-                android:layout_marginTop="16dp" />
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_background"
+                />
 
             <TextView
                 android:id="@+id/forgotPasswordText"
@@ -171,7 +136,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/orange_500"
+            android:background="@drawable/rounded_background"
             android:elevation="2dp"
             android:text="Sign Out"
             android:textColor="@color/white" />
