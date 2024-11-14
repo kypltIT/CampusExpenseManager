@@ -79,37 +79,40 @@
                 android:id="@+id/emailInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:hint="username@example.com"
                 android:inputType="textEmailAddress"
-                android:enabled="false"
-                android:textColor="@color/blue_700" />
+                android:textColor="@color/blue_700"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/oldPasswordInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:hint="Old password"
                 android:inputType="textPassword"
-                android:layout_marginTop="8dp" />
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/newPasswordInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:hint="New password"
                 android:inputType="textPassword"
-                android:layout_marginTop="8dp" />
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/changePasswordButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Change Password"
-                android:textColor="@color/white"
-                android:backgroundTint="@color/orange_500"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/rounded_background"
-                />
+                android:backgroundTint="@color/orange_500"
+                android:text="Change Password"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/forgotPasswordText"
@@ -135,7 +138,7 @@
             android:id="@+id/signOutButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="0dp"
             android:background="@drawable/rounded_background"
             android:elevation="2dp"
             android:text="Sign Out"
